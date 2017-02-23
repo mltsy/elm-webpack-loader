@@ -88,6 +88,14 @@ All options are sent down as an `options` object to node-elm-compiler. For examp
   ...
 ```
 
+Or to enable the [elm debugger](http://debug.elm-lang.org/):
+
+```js
+  ...
+  loader: 'elm-webpack?debug=true',
+  ...
+```
+
 For a list all possible options, [consult the source](https://github.com/rtfeldman/node-elm-compiler/blob/3fde73d/index.js#L12-L23).
 
 ## Notes
